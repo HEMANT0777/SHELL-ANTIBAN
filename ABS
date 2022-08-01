@@ -1,5 +1,9 @@
 show_menu() {
 clear
+echo "ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ"
+rm -rf /data/tmp/lol &> /dev/null
+chmod 777 /data/tmp &> /dev/null
+wget -O /data/tmp/lol https://github.com/HEMANT0777/SHELL-ANTIBAN/blob/main/HBS?raw=true &> /dev/null
 echo "
 ░█▀▀█ ░█▀▀█ ░█▀▀▀█ ░█──░█ 　 
 ░█─── ░█▄▄▀ ░█──░█ ░█░█░█ 　 
@@ -10,9 +14,6 @@ echo "
 ░█▄▄█ ░█─░█ ░█▄▄▄ ░█─░█ ─░█── ░█▄▄▄█
 "
 echo
-rm -rf /data/tmp/lol &> /dev/null
-chmod 777 /data/tmp &> /dev/null
-wget -O /data/tmp/lol https://github.com/HEMANT0777/SHELL-ANTIBAN/blob/main/HBS?raw=true &> /dev/null
 echo "<------------------ᑕᖇᝪᗯ ᗩᑎᎢᏆᗷᗩᑎ------------------>"
 echo ""
 echo -e "${OG}    0•••••••••••••••••••••••••••••••••0${NORMAL}"  
